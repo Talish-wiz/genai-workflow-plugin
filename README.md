@@ -73,6 +73,9 @@ A `SessionStart` hook that prints a short reminder at the start of every Claude 
    // ~/claude-plugins/.claude-plugin/marketplace.json
    {
      "name": "local-plugins",
+     "owner": {
+         "name": "Talish"
+      }
      "plugins": [
        { "name": "genai-workflow", "source": "./genai-workflow-plugin" }
      ]
