@@ -1,0 +1,9 @@
+{
+  "name": "genai-workflow",
+  "version": "1.0.0",
+  "description": "Enforces the hackathon GenAI-effectiveness workflow: modular architecture, LangSmith observability/evals, NVIDIA NeMo Guardrails, framework selection rules (LangChain/LangGraph/deepagents), plan-then-confirm gating, and a mandatory before/after metrics harness. Includes /usecase, /baseline and /audit commands plus an architecture-auditor agent.",
+  "author": {
+    "name": "Talish"
+  },
+  "keywords": ["genai", "langsmith", "nemo-guardrails", "langgraph", "hackathon", "architecture"]
+}

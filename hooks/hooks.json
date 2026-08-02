@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'genai-workflow plugin active: consult the architecture skill before writing any code. Stack is locked — LangSmith for observability/evals, NVIDIA NeMo Guardrails for guardrails, LangChain/LangGraph/deepagents per the selection rule. Plan-then-confirm before multi-file changes. New domain use case? Run /usecase. Metrics for the deck must come from /baseline.'"
+          }
+        ]
+      }
+    ]
+  }
+}
